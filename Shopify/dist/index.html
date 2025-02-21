@@ -10,53 +10,99 @@
     />
     <title>Shopify</title>
   </head>
+
   <body class="bg-slate-950">
     <!-- nav-bar starts here! -->
     <header>
-      <nav class="h-14 w-full md:h-[70px] bg-black flex items-center">
-        <div class="px-0 md:pl-[240px]">
-          <img
-            href="#"
-            class="h-6 md:h-[36px] w-full hover:cursor-pointer"
-            src="images/shopify_logo_white.png"
-            alt="Shopify Logo"
-          />
+      <nav
+        class="fixed top-0 left-0 z-50 flex items-center gap-8 justify-between w-full h-14 px-5 lg:h-[70px] lg:px-[230px] bg-none"
+      >
+        <div class="flex items-center">
+          <div>
+            <img
+              href="#"
+              class="h-6 lg:h-[36px] w-auto max-w-[200px] lg:max-w-[250px] hover:cursor-pointer"
+              src="images/shopify_logo_white.png"
+              alt="Shopify Logo"
+            />
+          </div>
+          <div class="hidden lg:flex">
+            <ul class="text-white flex gap-8 ml-14">
+              <li
+                class="font-semibold text-base flex items-center gap-2 hover:cursor-pointer group"
+              >
+                <span
+                  class="group-hover:underline group-hover:underline-offset-2"
+                  >Solutions</span
+                ><i class="pt-1 fa-solid fa-angle-down"></i>
+              </li>
+              <li
+                class="font-semibold text-base flex items-center gap-2 hover:cursor-pointer group"
+              >
+                <span
+                  class="group-hover:underline group-hover:underline-offset-2"
+                  >Pricing</span
+                >
+              </li>
+              <li
+                class="font-semibold text-base flex items-center gap-2 hover:cursor-pointer group"
+              >
+                <span
+                  class="group-hover:underline group-hover:underline-offset-2"
+                  >Resources</span
+                ><i class="pt-1 fa-solid fa-angle-down"></i>
+              </li>
+              <li
+                class="font-semibold text-base flex items-center gap-2 hover:cursor-pointer group"
+              >
+                <span
+                  class="group-hover:underline group-hover:underline-offset-2"
+                  >Enterprise</span
+                >
+              </li>
+              <li
+                class="font-semibold text-base flex items-center gap-2 hover:cursor-pointer group"
+              >
+                <span
+                  class="group-hover:underline group-hover:underline-offset-2"
+                  >What's new</span
+                ><i class="pt-1 fa-solid fa-angle-down"></i>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="hidden md:flex">
-          <ul class="text-white flex gap-8 ml-14">
-            <li
-              class="font-semibold text-base hover:cursor-pointer hover:underline hover:underline-offset-2"
+
+        <div class="text-white flex gap-8">
+          <div
+            class="hidden lg:flex items-center font-semibold text-base hover:underline hover:underline-offset-2 hover:cursor-pointer"
+          >
+            Log in
+          </div>
+          <div class="flex items-center">
+            <a
+              href="#"
+              class="text-white font-semibold text-base underline underline-offset-2 px-5 lg:rounded-3xl lg:py-2.5 lg:bg-white lg:text-black lg:no-underline hover:bg-gray-300"
             >
-              Solutions
-              <span class="pl-1"><i class="fa-solid fa-angle-down"></i></span>
-            </li>
-            <li
-              class="font-semibold text-base hover:cursor-pointer hover:underline hover:underline-offset-2"
-            >
-              Pricing
-            </li>
-            <li
-              class="font-semibold text-base hover:cursor-pointer hover:underline hover:underline-offset-2"
-            >
-              Resources
-              <span class="pl-1"><i class="fa-solid fa-angle-down"></i></span>
-            </li>
-            <li
-              class="font-semibold text-base hover:cursor-pointer hover:underline hover:underline-offset-2"
-            >
-              Enterprise
-            </li>
-            <li
-              class="font-semibold text-base hover:cursor-pointer hover:underline hover:underline-offset-2"
-            >
-              What's new
-              <span class="pl-1"><i class="fa-solid fa-angle-down"></i></span>
-            </li>
-          </ul>
+              Start free trial
+            </a>
+            <!-- Mobile Menu Button -->
+            <a class="text-3xl lg:hidden" href="#">&#8801;</a>
+          </div>
         </div>
       </nav>
+      <!-- nav-bar ends here! -->
+
+      <div class="relative overflow-hidden">
+        <video class="object-cover w-[100%] h-[80vh]" autoplay muted loop>
+          <source src="images/bg-video.webm" type="video/webm" />
+        </video>
+      </div>
     </header>
-    <main></main>
+
+    <main>
+      <!-- hero section starts here! -->
+    </main>
+
     <script
       src="https://kit.fontawesome.com/6d61a9a109.js"
       crossorigin="anonymous"
