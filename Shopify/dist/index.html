@@ -8,14 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <title>Shopify</title>
   </head>
 
   <body class="bg-slate-950">
     <!-- nav-bar starts here! -->
-
     <nav
-      class="container mx-auto fixed top-0 left-0 right-0 z-50 flex items-center gap-8 justify-between w-full h-14 px-6 lg:h-[70px] lg:px-[50px] bg-none"
+      class="container mx-auto fixed top-0 left-0 right-0 z-50 flex items-center gap-8 justify-between w-full h-14 px-6 lg:h-[70px] bg-none"
     >
       <div class="flex items-center">
         <div>
@@ -92,12 +92,12 @@
     </nav>
     <!-- nav-bar ends here! -->
 
-    <main
-      class="relative flex items-center justify-center h-lvh pt-[140px] md:pt-[260px] pb-[60px]"
+    <section
+      class="relative flex items-center justify-center h-lvh pt-[140px] md:pt-[250px] pb-[60px]"
     >
       <!-- hero section starts here! -->
       <video
-        class="absolute top-0 bottom-0 left-0 right-0 object-cover w-[100%] h-[100vh] sm:h-[100vh] md:h-[100vh] lg:h-[100vh]"
+        class="absolute top-0 bottom-0 left-0 right-0 object-cover w-[100%] h-[100vh] sm:h-[100vh] md:h-[150%] lg:h-[150%]"
         autoplay
         muted
         loop
@@ -143,10 +143,10 @@
           <div class="w-full flex justify-center items-center sm:w-auto">
             <button
               href="#"
-              class="bg-white bg-opacity-[0.2] hover:bg-white active:bg-gray-400 active:bg-opacity-[0.9] flex gap-4 sm:gap-2 sm:w-auto sm:px-8 justify-center items-center w-full px-10 rounded-full py-2.5 text-white text-base font-semibold group"
+              class="bg-white bg-opacity-[0.2] hover:bg-white active:bg-gray-400 active:bg-opacity-[0.9] flex gap-4 sm:gap-3 sm:w-auto sm:px-8 md:bg-transparent justify-center items-center w-full px-10 rounded-full py-2.5 text-white text-base font-semibold group"
             >
               <i
-                class="text-gray-400 text-[10px] group-hover:text-black group-active:text-black fa-solid fa-play"
+                class="text-gray-400 text-[10px] pt-[2px] group-hover:text-black group-active:text-black fa-solid fa-play"
               ></i
               ><span class="group-hover:text-black group-active:text-black"
                 >Why we build Shopify</span
@@ -155,7 +155,101 @@
           </div>
         </div>
       </div>
-    </main>
+    </section>
+
+    <section
+      class="container mx-auto px-[25px] py-[60px] h-full w-full sm:h-auto sm:gap-6 bg-black absolute top-[600px] md:top-[700px] rounded-t-[50px] flex flex-col"
+    >
+      <div class="flex flex-col gap-6">
+        <h2
+          class="text-white text-[40px] sm:text-[50px] justify-center leading-none font-normal"
+        >
+          The one commerce platform behind it all
+        </h2>
+        <div>
+          <p class="text-gray-400 text-[32px] leading-tight">
+            <span class="active:text-white">Sell online and in person.</span>
+            <span class="active:text-white">Sell locally and globally.</span
+            ><span class="active:text-white">Sell direct and wholesale.</span
+            ><span class="active:text-white">Sell on desktop and mobile.</span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="relative pt-10 flex gap-2 overflow-x-auto scroll-smooth snap-x snap-mandatory"
+        id="scrollContainer"
+      >
+        <img
+          class="rounded-lg w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/c65bc0c2daf1df2c109d1f9c14444a57.webp?originalWidth=1045&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/82f295147d6f32cd1533aa843f68b0c2.webp?originalWidth=454&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/92b0585e60e00efb6ceaf2aec6a66027.webp?originalWidth=1046&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/e919a4c2c7484b87699b2e6f5d020690.webp?originalWidth=454&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/268717f14ffc87467a9aeb1e6f5a7719.webp?originalWidth=1046&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/f11495397635517ec5ee47c2b360dd04.webp?originalWidth=1032&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/c10c68f8cde3ae725cb4286678280226.webp?originalWidth=454&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/365260f1127ed2d9c4d6185512d63983.webp?originalWidth=1032&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/2cc9891ed1b544cdbd548c289d1632cb.jpg?originalWidth=1048&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/afdceeca27acf0af45372d782b36a153.webp?originalWidth=1032&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/b3a10e2014c5b6cd44f2bc4a893ffc75.webp?originalWidth=454&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/d1d0f12159bedd0521717f23600c1beb.webp?originalWidth=1046&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/25528b246857074708e006916a5b77a6.jpg?originalWidth=1018&originalHeight=800"
+        />
+
+        <img
+          class="rounded-lg min-w-full h-full max-w-[178px] max-h-[178px]"
+          src="https://cdn.shopify.com/b/shopify-brochure2-assets/f478c242ac029c5f9116252ae2a8e2e1.webp?originalWidth=424&originalHeight=800"
+        />
+      </div>
+    </section>
 
     <script
       src="https://kit.fontawesome.com/6d61a9a109.js"

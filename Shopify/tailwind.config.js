@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./dist/**/*.html"],
   theme: {
@@ -19,7 +20,13 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
       "3xl": "2400px",
     },
-    extend: {},
+    extend: {
+      lineHeight: {
+        "extra-loose": "1.5",
+        12: "3rem",
+      },
+    },
   },
+
   plugins: [],
 };
