@@ -10,7 +10,7 @@ module.exports = {
       md: "1024px",
       // => @media (min-width: 768px) { ... }
 
-      lg: "1280px",
+      lg: "1440px",
       // => @media (min-width: 1024px) { ... }
 
       xl: "1536px",
@@ -20,12 +20,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
       "3xl": "2400px",
     },
-    extend: {
-      lineHeight: {
-        "extra-loose": "1.5",
-        12: "3rem",
-      },
-    },
+    extend: {},
   },
 
   plugins: [],
